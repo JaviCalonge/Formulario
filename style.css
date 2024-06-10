@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  color: #ccc;
+  background:#222;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+form {
+  background-color: #ededed;
+  padding: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 55px #fff2;
+  margin-top: 50px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+label {
+  color: #ccc;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+.form_input {
+  padding: 6px 20px;
+}
+
+input, textarea, button, select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  border: none;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px #0003;
+  background-color: transparent;
+  color: #ccc;
+}
+
+select {
+  background-color: #222;
+}
+
+textarea {
+  font-family: sans-serif;
+  max-width: 100%;
+  resize: none;
+  min-height: 100px;
+  max-height: 100px;
+  margin-top: 0px;
+  /* form-sizing: content; En el futuro con está opción la caja se ajusta al texto */
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+button {
+  max-width: 100px;
+  color: #ccc;
+}
+
+button:hover {
+  background-color: #777;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #222;
+}
+
+.check {
+  width: auto;
+  height: 10px;
+}
+
+.referido {
+  padding: 6px 20px;
+  max-width: 225px;
+}
+
+fieldset {
+  margin: 14px 6px;
+  border: 1px solid #ccca;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+legend {
+  padding: 0px 4px;
+  color: #ccc;
+}
+
