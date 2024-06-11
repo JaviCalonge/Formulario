@@ -105,3 +105,11 @@ legend {
   color: #ccc;
 }
 
+a {
+  color: #ccc;
+}
+
+a:hover {
+  font-size: 14px;
+  color: white;
+}
