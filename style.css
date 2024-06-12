@@ -53,6 +53,7 @@ select {
 }
 
 textarea {
+  font-family: inherit;
   max-width: 100%;
   resize: none;
   min-height: 100px;
