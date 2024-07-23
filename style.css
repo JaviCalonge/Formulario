@@ -5,6 +5,17 @@ body {
   background:#222;
 }
 
+.enlace {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+  background-color: #666;
+  margin: 8px;
+}
+
 h2 {
   text-align: center;
   margin: 0;

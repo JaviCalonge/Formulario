@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/forms.png">
+
+</head>
+
+<body>
+  <h1>Formulario estilo fuxia</h1>
+
+  <form action="formulario">
+
+    <h2>Formulario de contacto</h2>
+
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label for="datos">
+        <div class="nombre">
+          <input type="text" placeholder="escribe tu nombre">
+        </div>
+        <div>
+          <input type="text" placeholder="escribe tus apellidos">
+        </div>
+        <div>
+          <input type="text" placeholder="escribe tu dirección">
+        </div>
+        <div class="edad">
+          <input type="number" placeholder="edad">
+        </div>
+        <div>
+          <input type="text" placeholder="número de móvil">
+        </div>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de usuario</legend>
+      <label for="usuario">
+        <div>
+          <select>
+            <option class="opt" value="zero">Escoge una opción</option>
+            <option value="first">Seguidor</option>
+            <option value="second">Suscriptor</option>
+            <option value="third">Colaborador</option>
+            <option value="fourth">Socio</option>
+          </select>
+          <select>
+            <option value="op1">¿Quién te ha referido?</option>
+            <option value="op2">Amigo</option>
+            <option value="op3">Mi empresa</option>
+            <option value="op4">Otros</option>
+          </select>
+        </div>
+      </label>
+    </fieldset>
+    <div>
+      <label for="">Acepto los términos y condiciones</label>
+      <input type="checkbox" class="check">
+    </div>
+    <div>
+      <button type="submit" class="btn">Clik me!</button>
+    </div>
+
+  </form>
+</body>
+
+</html>

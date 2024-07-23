@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background-color: black
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+form {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(150, 16, 150);
+  color: white;
+  width: 80%;
+  border-radius: 6px;
+  /* box-shadow: 50px, 50px, 50px, white; */
+  padding: 0px 30px 30px;
+  
+}
+
+input, select {
+  background-color: transparent;
+  color: white;
+  border: 1px, solid, white;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 20px;
+  box-sizing: content-box;
+  width: 80%;
+  margin: 15px;
+}
+
+.edad, .nombre {
+  width: 50%;
+  margin-left: 5%;
+}
+
+legend {
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+select {
+  background-color: rgb(150, 16, 150);
+  width: 50%;
+}
+
+.opt {
+  color: blue;
+}
+
+.check {
+  width: auto;
+  margin-top: 40px;
+  margin-right: 210px;
+}
+
+.btn {
+  margin-left: 80%;
+  background-color: rgb(150, 16, 150);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(150, 16, 150);
+  background-color: white;
+}
